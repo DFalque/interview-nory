@@ -1,0 +1,9 @@
+@import "../../sass/base/variables";
+
+.Nav{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: $color_nory;
+    position:static;
+}
