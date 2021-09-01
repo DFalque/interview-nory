@@ -1,0 +1,40 @@
+@import "../../../sass//base/mixins";
+
+
+.Week{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    
+    &--day{
+    display: flex;
+    justify-content: center;
+    width: 17rem;
+    min-width: 10rem;
+
+
+    @include respond(tab-land) {
+        width: 14rem;
+       
+    }
+
+    @include respond(tab-port) {
+        width: 11rem;
+       
+    }
+
+    @include respond(phone) {
+        justify-content: flex-start;
+        overflow-x: visible;
+
+
+    } 
+    }
+
+    @include respond(phone) {
+        justify-content: flex-start;
+
+    } 
+
+}

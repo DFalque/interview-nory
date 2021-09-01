@@ -1,11 +1,17 @@
+@import "../../sass/base/mixins";
+
 .Home{
     display: flex;
     flex-direction: column;
-    flex:1,
+    flex:1;
+    margin-left:60px;
+
+    @include respond(phone) {
+        margin-left: 0;      
+      } 
 }
 
 .databox-container{
     display: flex;
     flex-direction: row;
-    background-color: blueviolet ;
 }

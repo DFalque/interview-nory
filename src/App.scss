@@ -1,3 +1,13 @@
+@import "./sass//base/mixins";
 .App {
+  display: flex;
+  flex-direction: row;
+
+  @include respond(phone) {
+    flex-direction: column;
+   
+  } 
 }
+
+
 

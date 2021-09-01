@@ -1,9 +1,19 @@
-@import "../../sass/base/variables";
+@import "../../sass//base/mixins";
 
 .Nav{
+    width: 60px;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: $color_nory;
-    position:static;
+    background-color: #E5E5E5;
+    position: fixed;
+
+    @include respond(phone) {
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       height: 48px;
+       position: relative ;
+
+      } 
 }

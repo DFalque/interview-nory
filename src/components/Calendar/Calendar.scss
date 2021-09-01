@@ -1,0 +1,14 @@
+@import "../../sass/base/mixins";
+
+.Calendar{
+   // margin: auto;
+    margin: 10px;
+    border-style: solid;
+    border-color: #D9E0E8;
+    border-width: 1px;
+    
+    @include respond(phone) {
+        overflow-x: scroll;              
+      } 
+
+}

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Banner from "../../components/Banner";
 import Header from "../../components/Header";
 import DataBox from "../../components/DataBox";
+import Calendar from "../../components/Calendar/Calendar";
 
 import "./Home.scss";
 
@@ -32,6 +33,7 @@ const Home = () => {
           return <DataBox {...box} />;
         })}
       </div>
+      <Calendar />
     </div>
   );
 };

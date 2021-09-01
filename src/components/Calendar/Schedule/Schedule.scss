@@ -1,0 +1,15 @@
+@import "../../../sass/base/mixins";
+
+.Schedule{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+
+    @include respond(phone) {
+        justify-content: flex-start;
+    
+      } 
+}

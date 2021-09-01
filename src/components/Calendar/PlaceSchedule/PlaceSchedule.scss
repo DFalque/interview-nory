@@ -1,0 +1,22 @@
+@import "../../../sass/base/mixins";
+
+.PlaceSchedule{
+
+
+    &--place{
+        display:flex;
+        flex-direction: row;
+        flex-shrink: 0    ;    
+        background-color: #F2F5F7;
+        height: 48px;
+        align-items: center;
+        overflow-x: visible;
+
+    }
+    &--schedule{
+        margin-top: 10px;
+        //display: flex;
+       // flex-direction: column;
+    }
+
+}
