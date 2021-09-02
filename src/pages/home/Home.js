@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 // COMPONENTS
 import Banner from "../../components/Banner";
@@ -11,7 +11,6 @@ import "./Home.scss";
 
 //DATA
 import data from "../../data/databox";
-import { closeBanner } from "../../redux/actions/bannerAction";
 
 const Home = () => {
   const [dataBox, setDataBox] = useState([]);
@@ -26,19 +25,11 @@ const Home = () => {
     setLoading(false);
   }, []);
 
-  const dispatch = useDispatch();
-
-  const handlerBanner = () => {
-    dispatch(closeBanner());
-  };
-
   if (loading) return null;
 
   return (
     <div className="Home">
-      <div onClick={() => handlerBanner()}>
-        {stateBanner ? <Banner /> : null}
-      </div>
+      {stateBanner ? <Banner /> : null}
       <Header />
       <div className="databox-container">
         {dataBox.map((box) => {
