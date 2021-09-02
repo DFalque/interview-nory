@@ -1,15 +1,22 @@
 @import "../../sass/base/mixins";
 
 .CardSchedule{
+    height: 60px;
+    display: flex;
+    align-items: center;
     padding: 5px;
-    background-color: #FFE1EA;
     border-left-width: 3px;
-    border-left-color: #FC4079;
     border-left-style: solid;
     min-width: 10rem;
     width: 17rem;
     margin-bottom: 5px;
-    height: 60px;
+
+    
+    &--data{
+        display: flex;
+        flex-direction: column;
+    }
+   
 
     @include respond(tab-land) {
         width: 14rem;
@@ -26,3 +33,4 @@
     } 
 
 }
+

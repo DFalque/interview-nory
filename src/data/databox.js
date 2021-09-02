@@ -1,8 +1,8 @@
 const data = [
-  { title: "Sales Forecast", budget: 31027 },
+  { title: "Sales Forecast", budget: 31.027 },
   {
     title: "Labour Budget",
-    budget: 9308,
+    budget: 9.308,
   },
 ];
 

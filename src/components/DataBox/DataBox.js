@@ -3,7 +3,7 @@ import "./DataBox.scss";
 const DataBox = ({ title, budget }) => {
   return (
     <div className="dataBox">
-      <p>{budget}</p>
+      <h1 className="heading-primary">{`€${budget}`}</h1>
       <p>{title}</p>
     </div>
   );

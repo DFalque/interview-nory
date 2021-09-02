@@ -1,6 +1,18 @@
+@import "../../sass/base/mixins";
 .dataBox{
-    min-width: 200px;
-    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    min-width: 320px;
+    height: 88px;
     margin-left: 10px;
     padding: 5px;
+    border-style: solid;
+    border-color: #D9E0E8;
+    border-width: 1px;
+    overflow-x: scroll;
+
+    @include respond(phone) {
+        min-width: 280px;
+
+    } 
 }

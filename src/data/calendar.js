@@ -1,8 +1,9 @@
 const data = [
   {
     place: "Front of House",
-    target: 9308,
-    planned: 9308,
+    tag: "front",
+    target: 9.308,
+    planned: 9.308,
     type: [
       {
         title: "Bar",
@@ -29,6 +30,14 @@ const data = [
           },
         ],
         thu: [
+          {
+            name: "Lincoln Kenter",
+            hour: "12:00 - 21:00",
+          },
+          {
+            name: "Lincoln Kenter",
+            hour: "12:00 - 21:00",
+          },
           {
             name: "Lincoln Kenter",
             hour: "12:00 - 21:00",
@@ -102,8 +111,9 @@ const data = [
   },
   {
     place: "Back of House",
-    target: 9308,
-    planned: 9308,
+    tag: "back",
+    target: 9.308,
+    planned: 9.308,
     type: [
       {
         title: "Bar",
@@ -203,8 +213,9 @@ const data = [
   },
   {
     place: "Driver",
-    target: 9308,
-    planned: 9308,
+    tag: "driver",
+    target: 9.308,
+    planned: 9.308,
     type: [
       {
         title: "Driver",
@@ -239,6 +250,14 @@ const data = [
         fri: [
           {
             name: "Gretchen Donin",
+            hour: "12:00 - 21:00",
+          },
+          {
+            name: "Gretchen Donin",
+            hour: "12:00 - 21:00",
+          },
+          {
+            name: "Lincoln Kenter",
             hour: "12:00 - 21:00",
           },
         ],

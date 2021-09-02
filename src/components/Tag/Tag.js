@@ -1,7 +1,7 @@
 import "./Tag.scss";
 
-const Tag = ({ title }) => {
-  return <span className="Tag">{title}</span>;
+const Tag = ({ title, tag }) => {
+  return <span className={`Tag ${tag}`}>{title}</span>;
 };
 
 export default Tag;

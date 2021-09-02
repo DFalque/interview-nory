@@ -13,7 +13,14 @@
        flex-direction: row;
        width: 100%;
        height: 48px;
-       position: relative ;
+       position: fix ;
+       z-index: 9999;
+       left: 0;
+       top: 0;
 
+       &::after{
+            content: '';
+            clear: both;
+        }
       } 
 }

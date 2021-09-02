@@ -3,8 +3,8 @@ $color-primary-dark: #2F3E4D;
 $color_nory: #4D3088;
 
 $color-red-strong:#FC4079;
-$color-blue-strong: #FF8800;
-$color-orange-strong: #1AB3D9;
+$color-orange-strong: #FF8800;
+$color-blue-strong: #1AB3D9;
 
 $color-white: #fff;
 $color-black: #000;
@@ -15,4 +15,33 @@ $color-black: #000;
 $default-font-size: 1.6rem;
 
 
-// GRID
+// ELEMENTS
+
+.front{
+    background-color: $color-red-strong;
+}
+.back{
+    background-color: $color-blue-strong;
+}
+
+.driver{
+    background-color: #FF8800;
+}
+
+
+.front-Card{
+    background-color: #FFE1EA;
+    border-left-color: $color-red-strong;
+
+}
+.back-Card{
+    background-color: #C8EFF8;
+    border-left-color: $color-blue-strong;}
+
+.driver-Card{
+    background-color: #FFE7CC;
+    border-left-color: $color-orange-strong;
+
+}
+
+

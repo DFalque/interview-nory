@@ -10,13 +10,25 @@
         background-color: #F2F5F7;
         height: 48px;
         align-items: center;
-        overflow-x: visible;
-
-    }
-    &--schedule{
-        margin-top: 10px;
-        //display: flex;
-       // flex-direction: column;
-    }
+        margin-bottom: 10px;
 
 }
+&--place-name{
+    width: 15%;
+}
+
+}
+.item{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+.false{
+    display: none;
+}
+
+
+
+  
