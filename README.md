@@ -43,6 +43,8 @@ As I have communicated to Offer and Marcin, I am not the biggest fan of Redux ðŸ
 
 * I also think I should have put the days in the week in sticky to be able to see them even if you scroll down.
 
+* It probably made more sense to use grid than flex but I've never used grid in my projects and it didn't seem fair to use something I don't know in a knowledge assessment.
+
 * And some little  details like icons.
 
 I think that's all ðŸ˜„
