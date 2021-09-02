@@ -1,21 +1,19 @@
 @import "../../../sass/base/mixins";
 
 .PlaceSchedule{
-
-
     &--place{
         display:flex;
         flex-direction: row;
-        flex-shrink: 0    ;    
         background-color: #F2F5F7;
         height: 48px;
         align-items: center;
         margin-bottom: 10px;
+        cursor: pointer;
 
-}
-&--place-name{
-    width: 15%;
-}
+    }
+    &--place-name{
+        width: 15%;
+    }
 
 }
 .item{
@@ -23,7 +21,6 @@
     margin-right: 5px;
 
 }
-
 
 .false{
     display: none;

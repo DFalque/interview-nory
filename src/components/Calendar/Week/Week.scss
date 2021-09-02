@@ -19,23 +19,28 @@
     width: 17rem;
     min-width: 10rem;
 
+        @include respond(desktop) {
+            width: 11rem;
 
-        @include respond(tab-land) {
-            width: 14rem;
         }
 
+
         @include respond(tab-port) {
-            width: 11rem;
+            width: 10rem;
+
         }
 
         @include respond(phone) {
+            width: 9rem;
             justify-content: center;
-            overflow-x: visible;
+            //overflow-x: visible;
             } 
     }
 
-@include respond(phone) {
-        justify-content: flex-start;
-    } 
+
+
+    @include respond(phone) {
+            justify-content: flex-start;
+        } 
 
 }

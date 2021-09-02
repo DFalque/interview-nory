@@ -6,9 +6,12 @@
     border-style: solid;
     border-color: #D9E0E8;
     border-width: 1px;
+    overflow-x: scroll;
+
     
     @include respond(phone) {
-        overflow-x: scroll;              
+        overflow-x: scroll;
+
       } 
 
 }
