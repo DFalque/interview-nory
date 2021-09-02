@@ -5,7 +5,6 @@ import "./Schedule.scss";
 
 const Schedule = (props) => {
   const { title, tag, mon, tue, wed, thu, fri, sat, sun } = props;
-  console.log(props);
 
   if (!mon || !tue || !wed || !thu || !fri || !sat || !sun) return null;
 

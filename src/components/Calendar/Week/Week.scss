@@ -6,6 +6,9 @@
     flex-direction: row;
     flex: 1;
     justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     
     &--day{
     display: flex;
@@ -30,7 +33,7 @@
     @include respond(phone) {
         justify-content: center;
         overflow-x: visible;
-    } 
+        } 
     }
 
     @include respond(phone) {
