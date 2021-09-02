@@ -1,6 +1,6 @@
 # Hello Nory Team
 
-Below I explain the most relevant points of the project's development.
+I'm going to explain the most relevant points of the project's development.
 
 
 
